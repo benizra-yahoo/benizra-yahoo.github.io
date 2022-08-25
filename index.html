@@ -58,6 +58,8 @@
     }
     var psmarker = new LeafIcon({ iconUrl: 'PSMarker2.png' })
 
+        L.marker([14.5602142, 121.0252088], { icon: psmarker }).addTo(mymap).bindPopup("PSPI-Makati Office").openPopup();
+    
         L.marker([8.547197, 117.5069983], { icon: psmarker }).addTo(mymap).bindPopup("Candawaga-Culasian Power Plant");
 
         L.marker([8.87356, 117.50046], { icon: psmarker }).addTo(mymap).bindPopup("Rizal Office");		
@@ -66,7 +68,7 @@
 
         L.marker([11.019959, 119.315304], { icon: psmarker }).addTo(mymap).bindPopup("Liminangcong Office");
 
-        L.marker([10.40839, 119.18277], { icon: psmarker }).addTo(mymap).bindPopup("Port Barton Power Plant").openPopup();
+        L.marker([10.40839, 119.18277], { icon: psmarker }).addTo(mymap).bindPopup("Port Barton Power Plant");
 
         L.marker([11.342234, 124.113269], { icon: psmarker }).addTo(mymap).bindPopup("Malapascua Power Plant");
 
